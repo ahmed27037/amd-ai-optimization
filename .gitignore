@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/models/*.onnx
+data/models/*.pth
+data/models/*.pt
+data/models/*.h5
+data/test_images/*
+!data/test_images/.gitkeep
+data/calibration/*.npz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Benchmarks
+benchmarks/results/
+*.csv
+*.json
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation files (not for GitHub)
+PROJECT_DOCUMENTATION.md
+
+# Diagrams (development reference only)
+diagrams/
+

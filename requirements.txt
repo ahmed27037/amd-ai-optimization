@@ -1,0 +1,49 @@
+# Core ML/AI Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.13.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnxruntime-gpu>=1.15.0  # For GPU acceleration
+
+# Model Optimization
+onnxoptimizer>=0.3.13
+onnxsim>=0.4.33
+onnx-tf>=1.11.0
+tensorflow-model-optimization>=0.7.3
+
+# Performance Profiling
+py-spy>=0.3.14
+memory-profiler>=0.61.0
+psutil>=5.9.5
+gpustat>=1.1.1
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data Processing
+h5py>=3.9.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Utilities
+click>=8.1.0
+tensorboard>=2.13.0
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-benchmark>=4.0.0
+
+# Optional: ROCm support (if available)
+# rocm-dkms  # Install separately via system package manager
+# rocm-libs  # Install separately via system package manager
+
+# Optional: OpenCL
+# pyopencl>=2023.1.0  # Install separately if OpenCL is available
+
